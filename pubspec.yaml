@@ -7,8 +7,13 @@ environment:
   sdk: '>=3.4.0-282.1.beta <4.0.0'
 
 dependencies:
+  analog_clock: ^0.1.1
   flutter:
     sdk: flutter
+  font_awesome_flutter: ^10.7.0
+  google_fonts: ^6.2.1
+  lottie: ^3.1.0
+  material_design_icons_flutter: ^7.0.7296
 
 dev_dependencies:
   flutter_test:
@@ -17,3 +22,5 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
+  assets:
+    - assets/lottie/
